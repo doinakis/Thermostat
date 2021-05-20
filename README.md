@@ -12,6 +12,8 @@ Home thermostat using stm nucleo (model: Stm32f401re). Parts needed:
 The 3 leds (red,green and blue) are used to indicate that the temperature exceeds a certain temperature value (red) or that the temperature is below a certain value (blue) or that a fan is on (green).
 
 # Pin connections
+- STM NUCLEO PINS
+![nucleo_pins](https://github.com/doinakis/Thermostat/blob/main/photos/nucleo_pins.jpg)
 - Display  
 ![Display](https://github.com/doinakis/Thermostat/blob/main/photos/Display.jpg)
 - HC-SR04  
@@ -33,3 +35,10 @@ The 3 leds (red,green and blue) are used to indicate that the temperature exceed
 ![Display](https://github.com/doinakis/Thermostat/blob/main/photos/Low_Temp.jpg)
 - Show the mean temperature  
 ![Display](https://github.com/doinakis/Thermostat/blob/main/photos/Mean.jpg)
+
+
+### Usefull links  
+1. [Proximity Sensor Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)  
+2. [Temperature Sensor Datasheet](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf)  
+3. [DWT](https://dzone.com/articles/cycle-counting-on-an-arm-cortex-m-with-dwt)  
+4. [Temperature Sensor helping library](https://controllerstech.com/ds18b20-and-stm32/)  
