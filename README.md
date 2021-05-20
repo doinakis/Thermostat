@@ -8,6 +8,7 @@ Home thermostat using stm nucleo (model: Stm32f401re). Parts needed:
 - 3x 1KΩ resistors for the LEDS
 - 1x10KΩ και 1x1KΩ resistors for the LCD contrast
 - 1x4.7KΩ for the temperature sensor.  
+
 The 3 leds (red,green and blue) are used to indicate that the temperature exceeds a certain temperature value (red) or that the temperature is below a certain value (blue) or that a fan is on (green).
 
 # Pin connections
