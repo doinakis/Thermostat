@@ -12,7 +12,7 @@ Home thermostat using stm nucleo (model: Stm32f401re). Parts needed:
 The 3 leds (red,green and blue) are used to indicate that the temperature exceeds a certain temperature value (red) or that the temperature is below a certain value (blue) or that a fan is on (green).
 
 # Pin connections
-- STM NUCLEO PINS
+- STM NUCLEO PINS  
 ![nucleo_pins](https://github.com/doinakis/Thermostat/blob/main/photos/nucleo_pins.jpg)
 - Display  
 ![Display](https://github.com/doinakis/Thermostat/blob/main/photos/Display.jpg)
