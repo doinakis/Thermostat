@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Michalis Doinakis, Auth, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+D:\eeauth\#1 ΕΞΑΜΗΝΑ\8ο εξάμηνο\Μικροεπεξεργαστές και Περιφερειακά\Εργασία 3\Assignment 3\Assignment 3.uvprojx
+Project File Date:  06/25/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling lcd.c...
+compiling temp_sens.c...
+src\temp_sens.c(23): warning:  #68-D: integer conversion resulted in a change of sign
+  		response = -1;											// else the response is set to -1 to indicate no sensor is detected
+src\temp_sens.c: 1 warning, 0 errors
+compiling Thermostat.c...
+compiling main.c...
+compiling prox_sens.c...
+compiling delay.c...
+compiling gpio.c...
+compiling comparator.c...
+./drivers/adc.h(10): warning:  #47-D: incompatible redefinition of macro "ADC1_BASE"  (declared at line 694 of "C:\Users\doinakis\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h")
+  #define ADC1_BASE             (APB2PERIPH_BASE + 0x2000)
+./drivers/adc.h(23): warning:  #47-D: incompatible redefinition of macro "GPIOA_BASE"  (declared at line 708 of "C:\Users\doinakis\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h")
+  #define GPIOA_BASE            (AHB1PERIPH_BASE + 0x0000)
+drivers\comparator.c: 2 warnings, 0 errors
+compiling i2c.c...
+compiling adc.c...
+./drivers/adc.h(10): warning:  #47-D: incompatible redefinition of macro "ADC1_BASE"  (declared at line 694 of "C:\Users\doinakis\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h")
+  #define ADC1_BASE             (APB2PERIPH_BASE + 0x2000)
+./drivers/adc.h(23): warning:  #47-D: incompatible redefinition of macro "GPIOA_BASE"  (declared at line 708 of "C:\Users\doinakis\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h")
+  #define GPIOA_BASE            (AHB1PERIPH_BASE + 0x0000)
+drivers\adc.c: 2 warnings, 0 errors
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_rcc.c...
+assembling startup_stm32f401xe.s...
+compiling queue.c...
+compiling timer.c...
+compiling uart.c...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=9024 RO-data=612 RW-data=96 ZI-data=1632  
+".\Objects\Assignment 3.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\doinakis\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\doinakis\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F401xx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xe.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
