@@ -1,4 +1,5 @@
 # Thermostat
+## Project as part of Aristotle University of Thessaloniki assignment.
 Home thermostat using stm nucleo (model: Stm32f401re). Parts needed:
 - Stm32f401re nucleo board
 - DS18B20 Temperature Sensor module for Arduino
